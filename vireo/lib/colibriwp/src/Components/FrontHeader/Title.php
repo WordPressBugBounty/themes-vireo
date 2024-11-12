@@ -43,7 +43,7 @@ class Title extends ComponentBase {
 
 				),
 				"{$prefix}localProps.content" => array(
-					'default' => Defaults::get( 'edit_this_text_in_customizer' ),
+					'default' => __( 'IMAGINE. DESIGN. ACHIEVE.\nBegin crafting your website today!', 'vireo' ),
 					'control' => array(
 						'label'       => Translations::get( 'title' ),
 						'type'        => 'input',

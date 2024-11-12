@@ -128,14 +128,16 @@ vireo_theme()
 			'width'       => 150,
 			'height'      => 70,
 		)
-	)
-	->register_menus(
-		array(
-			'header-menu' => esc_html__( 'Header Menu', 'vireo' ),
-			'footer-menu' => esc_html__( 'Footer Menu', 'vireo' ),
-		)
 	);
 
+add_action('after_setup_theme', function() {
+    vireo_theme()->register_menus(
+        array(
+            'header-menu' => esc_html__( 'Header Menu', 'vireo' ),
+            'footer-menu' => esc_html__( 'Footer Menu', 'vireo' ),
+        )
+    );
+},1);
 if ( ! apply_filters( 'kubio_is_enabled', false ) ) {
 	vireo_assets()
 		->registerTemplateScript(

@@ -237,11 +237,11 @@ $vireo_gradients                     = array(
 		),
 
 );
-$vireo_theme_action_button           = __( ' Get Started Today', 'vireo' );
-$vireo_theme_action_button_secondary = __( 'Learn more', 'vireo' );
+$vireo_theme_action_button           =  ' Get Started Today';
+$vireo_theme_action_button_secondary =  'Learn more';
 
-$vireo_theme_click_pen_to_edit_title = __( 'IMAGINE. DESIGN. ACHIEVE.\nBegin crafting your website today!', 'vireo' );
-$vireo_lorem_ipsum                   = __('Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur. Viderer feugiat at pro, mea aperiam.', 'vireo');
+$vireo_theme_click_pen_to_edit_title =  'IMAGINE. DESIGN. ACHIEVE.\nBegin crafting your website today!';
+$vireo_lorem_ipsum                   = 'Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae. In his nemore temporibus consequuntur, vim ad prima vivendum consetetur. Viderer feugiat at pro, mea aperiam.';
 
 
 return array(
@@ -698,30 +698,5 @@ return array(
 	'blog_show_post_thumb_placeholder'  => true,
 	'blog_posts_per_row'                => 2,
 	'blog_enable_masonry'               => true,
-
-	'front_page_designs'                => array(
-		array(
-			'name'    => __( 'Modern', 'vireo' ),
-			'index'   => 1,
-			'preview' => 'front-page-1.jpg',
-		),
-
-		array(
-			'name'    => __( 'Fullscreen', 'vireo' ),
-			'index'   => 2,
-			'preview' => 'front-page-2.jpg',
-		),
-
-		array(
-			'name'    => __( 'Classic', 'vireo' ),
-			'index'   => 3,
-			'preview' => 'front-page-3.jpg',
-		),
-
-		array(
-			'name'    => __( '', 'vireo' ),
-			'index'   => 4,
-			'preview' => 'admin/ai-icon.svg',
-		),
-	),
+    
 );
